@@ -31,7 +31,7 @@ class UnitConverter:
         get_units(self)
             Returns list of all supported units
 
-        get_available conversions(self, unit: str)
+        get_available_conversions(self, unit: str)
             Retrieves list of supported/convertible units based on the input unit
 
         convert(self, scalar: int, input_unit: str, output_unit: str)
