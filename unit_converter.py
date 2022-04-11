@@ -116,7 +116,6 @@ class UnitConverter:
         List[str]: Sorted list of supported/convertible units
         """
 
-        unit = unit.lower()
         try:
             unit_list = list(self.__conversion_dict[unit.lower()].keys())
             return sorted(unit_list)
