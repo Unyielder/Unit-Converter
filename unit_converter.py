@@ -123,7 +123,7 @@ class UnitConverter:
         except KeyError:
             raise UnitNotFoundError(f"Unit '{unit}' not available for conversion")
 
-    def convert(self, scalar: int, input_unit: str, output_unit: str) -> int:
+    def convert(self, scalar: float, input_unit: str, output_unit: str) -> int:
         """
         Converts the input scalar into its desired unit of measure
 
